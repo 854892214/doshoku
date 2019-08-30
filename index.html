@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no" />
+    <meta name="x5-orientation" content="portrait" />
+    <meta name="screen-orientation" content="portrait" />
+    <title></title>
+    <% if (htmlWebpackPlugin.options.cdn != undefined) { %>
+      <% for (var i in htmlWebpackPlugin.options.cdn.css) { %>
+      <link href="<%= htmlWebpackPlugin.options.cdn.css[i] %>" rel="stylesheet">
+      <% } %>
+      <% for (var i in htmlWebpackPlugin.options.cdn.js) { %>
+      <script src="<%= htmlWebpackPlugin.options.cdn.js[i] %>"></script>
+      <% } %>
+    <% } %>
+  </head>
+  <body>
+    <div id="app"></div>
+  </body>
+</html>

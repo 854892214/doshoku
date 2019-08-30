@@ -1,0 +1,44 @@
+@media screen and (max-width: 320px) {
+    #goodsControlContents .goods-control-content .goods-item .goods-item-content .name {
+        font-size: 15px !important;
+    }
+
+    #goodsControlContents .goods-control-content .goods-item .goods-item-content .price {
+        font-size: 14px;
+    }
+
+    .cart-btn .icon-remove_circle_outline {
+        font-size: 20px !important;
+    }
+
+    .cart-btn .icon-add_circle {
+        font-size: 20px !important;
+    }
+
+    #menuControlContent .menu-item {
+        font-size: 14px !important;
+    }
+
+    .shopcart .content-left .shopcart-logo {
+        margin: 0 0 0 12px !important;
+    }
+
+    .bottom-nav {
+        padding: 0 0 0 14% !important;
+    }
+
+    #goodsControlContents .goods-control-content .goods-item .goods-item-content .cart-btn {
+        position: absolute;
+        right: 0.3rem;
+        top: 3.9rem !important;
+    }
+
+    .cart-btn .cart-count {
+        margin-left: 0.1rem !important;
+        margin-right: 0.1rem !important;;
+    }
+
+    .shopcart .content-right {
+        width: 25% !important;
+    }
+}
