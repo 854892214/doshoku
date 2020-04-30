@@ -10,7 +10,7 @@
     "build": "node build/build.js"
   },
   "dependencies": {
-    "jquery": "^3.4.0",
+    "jquery": "^3.5.0",
     "less": "^3.9.0",
     "less-loader": "^4.1.0",
     "moment-timezone": "^0.5.25",
